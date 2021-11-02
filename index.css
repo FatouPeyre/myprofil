@@ -1,0 +1,113 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+
+}
+
+html{
+    scroll-behavior: smooth;
+
+}
+body{
+	background-image: linear-gradient(to bottom right, #ff34d2
+	 10% , #5b9dff 20%,#d06bff 60% ,#4affde 100% );
+	background-size: 200% 200%;
+	animation: movingGradient 5s linear  infinite alternate;
+};
+
+@keyframes movingGradient {
+	from { background-position: 0 0;}
+	to { background-position: 100% 100%;}
+}
+
+
+.active{
+	background-color:rgb(12, 103, 207);
+
+}
+
+.mail:visited{
+	color:rgb(21, 40, 204);
+
+}
+
+nav{
+	display:inline;
+
+}
+
+nav li {
+	list-style-type: none;
+	display:inline-block;
+	padding-left:60px;
+	padding-right:60px;
+	border-right:2px solid rgb(24, 23, 23);
+
+}
+nav li a{
+	font-style:italic;
+	font-weight:bolder;
+	margin-left:70px;
+	text-decoration:none;
+	color:rgb(200, 200, 216);
+
+}
+
+nav li a:hover{
+	background-color:rgb(26, 121, 230);
+
+}
+
+
+
+#photo_profil{
+	border:3px solid black;
+	width:200px;
+	height:250px;
+}
+
+/*
+#resumeCVCoord{
+
+	padding-top: 120px;
+}
+*/
+#resumeCVText{
+	width:300px;
+
+}
+
+.spaceContent{
+	margin:30px;
+
+}
+.ancre1{
+	margin-left:30px;
+
+	color:black;
+
+	font-style:italic;
+	font-weight:bolder;
+	/*font-family: Dejavu Sans;*/
+
+}
+
+#versionPDF{
+	border-radius:5px;
+	box-shadow:2px 2px 5px 1px black;
+	color:blue;
+	background-color:rgb(26, 121, 230);
+	padding:5px;
+	margin:auto;
+}
+.versionPDF:visited{
+	color:blue;
+
+}
+
+#piedPage{
+	display:flex;
+	justify-content:space-between;
+
+}
